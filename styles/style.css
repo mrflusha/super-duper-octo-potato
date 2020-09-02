@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:wght@300&family=Roboto+Condensed:wght@300&display=swap');
 
 
 body{
@@ -12,7 +11,7 @@ body{
 	width: 100vw;
 	height: 90vh;
 	cursor: default;
-	font-family: 'Long Cang', cursive;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 *::selection{
@@ -30,7 +29,7 @@ body{
 	border-radius: 1vw;
 	flex-direction: column;
 	min-width: 50vw;
-	min-height: 45vh;
+	min-height: 35vh;
 	align-items: flex-end;
 	background: #464242;
 	
