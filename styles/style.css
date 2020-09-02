@@ -14,6 +14,10 @@ body{
 *::selection{
 	background: transparent;
 }
+*{
+	margin: 0;
+	padding: 0;
+}
 
 .window_ex{
 	display: flex;
