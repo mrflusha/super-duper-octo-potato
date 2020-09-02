@@ -22,7 +22,7 @@ body{
 	border-radius: 1vw;
 	flex-direction: column;
 	width: 50vw;
-	height: 45vh;
+	min-height: 45vh;
 	align-items: flex-end;
 	background: #464242;
 	
