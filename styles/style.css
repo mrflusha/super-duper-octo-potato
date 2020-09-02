@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:wght@300&display=swap');
+
+
+
 body{
 	margin: 0;
 	padding: 0;
@@ -25,7 +29,7 @@ body{
 	border: 1px solid #000;
 	border-radius: 1vw;
 	flex-direction: column;
-	width: 50vw;
+	min-width: 50vw;
 	min-height: 45vh;
 	align-items: flex-end;
 	background: #464242;
