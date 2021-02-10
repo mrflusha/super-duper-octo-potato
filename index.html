@@ -18,11 +18,25 @@
 							<div id="pict">
 								<div id="circle">
 									<div id="i">i</div>
+									<div id = 'pict'><img src='img/photo.jpg' alt='' width = 250x height = 300px>"</div>
 								</div>
 							</div>
-							<div id="text">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Neque dolores ea doloribus nam in tempora.</div>
+							<div id="text" id="todel"><h1>Do you want to marry me?!</h1></div>
 						</div>		
-						<div id="ok"><p>OK</p></div>
+						<div id="ok" id = "cancel" onclick="alert('Прости что потратил твоё и своё время за зря....')"><p>Degree</p></div>
+						<div id="ok" onclick='changecolor()'><p>Agree</p></div>
+						<input type="color">
+						<script type="text/javascript">
+							
+							function changecolor() {
+								var it = document.getElementById("pict")
+								var text = document.getElementById('text')
+								text.insertAdjacentHTML('afterend', "<div id = 'text' color = ''><h3>&#128158; Me love you to my Kitty....&#128158;<h3>")
+								text.insertAdjacentHTML('beforebegin', "<div id = 'text' color = ''><h3>&#128158; Me love you to my Kitty....&#128158;<h3>")
+								text.insertAdjacentHTML('afterend', "<div id = 'text' color = ''>&#128158;")
+								text.remove()
+							}
+						</script>
 				</div>
 			</div>
 		</div>
