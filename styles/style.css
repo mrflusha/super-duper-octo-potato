@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:wght@300&family=Roboto+Condensed:wght@300&display=swap');
 
-*{
+div{
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
