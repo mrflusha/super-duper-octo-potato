@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:wght@300&family=Roboto+Condensed:wght@300&display=swap');
 
-div{
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-}
+
 body{
 	margin: 100px;
 	padding: 0;
@@ -141,4 +134,13 @@ body{
 #photo{
 	display: block;
 	border: 1px dotted red;
+}
+
+div{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
 }
